@@ -52,6 +52,10 @@ void vertexselect() //Change this to void later!
 		}
 
 	}
+	// fixed ratio of 1 : -1. Start with an array of all 1's; while loop randomly selecting vertices until correct proportions are reached
+	//parameters: initial size, nxn; initial ratio of 1: -1; need to know j, b (only need j/b); 
+	//choose vertex at random, select neighbor, flip or not flip; select next vertex
+	//At intervals, output array of spins and print in greyscale .png
 	//cout << "The initial vertex spin is:" << spin[a][b] << endl;
 	
 }
